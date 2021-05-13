@@ -2,7 +2,7 @@
 
 html {
   height:100%;
-  background-image: #363636;
+  background-color: #363636;
 }
 
 div#welcome {
@@ -25,7 +25,7 @@ p#welcome {
     content: attr(data-item);
     transition: all 1s ease-in-out;
     color: #03396c;
-    position: absolute;
+    position: center;
     top: 0;
     bottom: 0;
     left: 0;
@@ -37,6 +37,7 @@ p#welcome {
   &:hover {
     &::before {
       width: 100%;
+      position: center;
     }
   }
 }
